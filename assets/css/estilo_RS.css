@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(../imagenes/ajolote2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(7px);
+}
+
+h1{
+    text-align: center;
+    background-color:  rgba(140, 255, 222, 0.719) ;
+    color: white;
+    padding: 20px;
+}
+
+nav ul{
+    background-color: #fc93cb8c;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.btn_Facebook{
+    margin: 0px 20px;
+    padding: 5px;
+    border: 5px solid #686868;
+    background: white;
+    width: 50px;
+    cursor: pointer;
+    color: white;
+    outline: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn_X{
+    margin: 0px 20px;
+    padding: 5px;
+    border: 5px solid #686868;
+    background: white;
+    width: 50px;
+    cursor: pointer;
+    color: white;
+    outline: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.btn_Youtube{
+    margin: 0px 20px;
+    padding: 5px;
+    border: 5px solid #686868;
+    background: white;
+    width: 50px;
+    cursor: pointer;
+    color: white;
+    outline: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(140, 255, 222, 0.396);
+}
